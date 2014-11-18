@@ -66,7 +66,7 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 }
 
 .pun h1 {
-	font:2.154em/1em "Droid Arabic Kufi", Tahoma, "DejaVu Sans", Verdana, sans-serif;
+	font:3.154em/1em "Droid Arabic Naskh", Tahoma, "DejaVu Sans", Verdana, sans-serif;
 	padding: 7px 0;
 }
 
@@ -177,8 +177,8 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 
 .pun {
 	padding: 30px 40px;
-        margin: auto;
-	width: 940px; /* Fixed the style to 940px */
+    margin: auto;
+	width: 940px;
 }
 
 #punredirect, #punmaint {
@@ -198,26 +198,26 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 	height: 18px;
 	margin-bottom: -18px;
 	position: relative;
-	background: url(Air_rtl/img/main_top.png) top right no-repeat;
+	/* background: url(Air_rtl/img/main_top.png) top right no-repeat; */
 }
 
 .pun .top-box div {
 	height: 18px;
 	margin-right: 50%;
-	background: url(Air_rtl/img/main_top.png) top left no-repeat;
+	/* background: url(Air_rtl/img/main_top.png) top left no-repeat; */
 }
 
 .pun .end-box {
 	margin-top: -17px;
 	height: 18px;
 	position: relative;
-	background: url(Air_rtl/img/main_end.png) bottom right no-repeat;
+	/*background: url(Air_rtl/img/main_end.png) bottom right no-repeat;*/
 }
 
 .pun .end-box div {
 	height: 18px;
 	margin-right: 50%;
-	background: url(Air_rtl/img/main_end.png) bottom left no-repeat;
+	/*background: url(Air_rtl/img/main_end.png) bottom left no-repeat;*/
 }
 
 #punredirect h2, #punmaint h2 {
@@ -962,6 +962,11 @@ MAIN POSTS
 	border-width: 1px 3px 1px 1px;
 	margin: 0.75em 1em;
 	padding: 0 0.75em;
+		 box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
 }
 
 .pun .quotebox cite {
@@ -1453,7 +1458,7 @@ COLOUR SCHEME
 ----------------------------------------------------------------*/
 
 html, body, .pun {
-	background: #f6f9fc;
+	background: #F6F6F8 url(Air_rtl/img/bg.jpg) repeat-x 0 0;
 	color: #333;
 }
 
@@ -1462,6 +1467,7 @@ html, body, .pun {
 	border-color: #cad7e1;
 	color: #566579;
 	padding: 18px;
+box-shadow: -1px 4px 41px -14px rgba(0,0,0,0.75);
 }
 
 #brdtitle #brddesc, .pun .pagepost, #brdstats #onlinelist, #brdfooter #searchlinks, #brdfooter #modcontrols,

@@ -962,7 +962,7 @@ MAIN POSTS
 	border-width: 1px 3px 1px 1px;
 	margin: 0.75em 1em;
 	padding: 0 0.75em;
-		 box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
 	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
 	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
 	-moz-border-radius: 5px;
@@ -1680,15 +1680,6 @@ box-shadow: -1px 4px 41px -14px rgba(0,0,0,0.75);
 
 #adminconsole fieldset td.nodefault {
 	background: #d59b9b;
-}
-
-.pun .multiselect {
-	color: #357082;
-}
-
-.pun .checklist {
-	background: white;
-	border-color: #ccc;
 }
 
 /* Status Indicators

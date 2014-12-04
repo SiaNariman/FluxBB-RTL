@@ -1459,7 +1459,7 @@ COLOUR SCHEME
 ----------------------------------------------------------------*/
 
 html, body, .pun {
-	background: #F6F6F8 url(AirFixed_rtl/img/bg.jpg) repeat-x 0 0;
+	background: #f0f0f0;
 	color: #333;
 }
 
@@ -1468,7 +1468,7 @@ html, body, .pun {
 	border-color: #cad7e1;
 	color: #566579;
 	padding: 18px;
-box-shadow: -1px 4px 41px -14px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 41px -14px rgba(0,0,0,0.75);
 }
 
 #brdtitle #brddesc, .pun .pagepost, #brdstats #onlinelist, #brdfooter #searchlinks, #brdfooter #modcontrols,
@@ -1699,3 +1699,4 @@ box-shadow: -1px 4px 41px -14px rgba(0,0,0,0.75);
 .pun .inew .icon {
 	border-color: #91b3d9 #87a8d1 #6c85bb #7292c3;
 }
+

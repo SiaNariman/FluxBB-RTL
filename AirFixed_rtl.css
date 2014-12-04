@@ -13,7 +13,7 @@
 
 #punindex.pun {
 	margin: auto;
-	width: 900px;
+	width: 940px;
 	}
 
 html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, .pun h4, .pun h5, .pun pre, .pun blockquote,
@@ -288,26 +288,59 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 	padding: 0;
 }
 
+
 #brdmenu ul {
-	padding: 0;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#brdmenu {
+    width: 100%;
+    margin: 5px auto;
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777;
+}
+
+#brdmenu:before,
+#brdmenu:after {
+    content: "";
+    display: table;
+}
+
+#brdmenu:after {
+    clear: both;
 }
 
 #brdmenu li {
-	float: right;
+    float: right;
+    border-left: 1px solid #222;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
 }
 
-#brdmenu a:link, #brdmenu a:visited {
-	border-left-style: solid;
-	border-width: 1px;
-	display: block;
-	min-width: 60px;
-	padding: 12px 8px 6px 16px;
-	white-space: nowrap;
+#brdmenu a {
+    float: right;
+    padding: 4px 30px;
+    color: #999;
+	font-family: "Droid Arabic Kufi", Tahoma, "DejaVu Sans", Verdana, sans-serif !important;
+	font-size: 1em;
+	font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
 }
 
-#brdmenu a:hover, #brmenu a:active, #brdmenu a:focus {
-	text-decoration: none;
+#brdmenu li:hover > a {
+    color: #fafafa;
 }
+
+*html #brdmenu li a:hover { /* IE6 only */
+    color: #fafafa;
+}
+
+
 
 /* Welcome Box
 ----------------------------------------------------------------*/
@@ -1469,6 +1502,12 @@ html, body, .pun {
 	color: #566579;
 	padding: 18px;
 	box-shadow: -1px 4px 41px -14px rgba(0,0,0,0.75);
+	-webkit-border-top-left-radius: 33px;
+	-webkit-border-bottom-right-radius: 33px;
+	-moz-border-radius-topleft: 33px;
+	-moz-border-radius-bottomright: 33px;
+	border-top-left-radius: 33px;
+	border-bottom-right-radius: 33px;
 }
 
 #brdtitle #brddesc, .pun .pagepost, #brdstats #onlinelist, #brdfooter #searchlinks, #brdfooter #modcontrols,

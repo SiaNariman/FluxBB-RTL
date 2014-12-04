@@ -15,6 +15,7 @@
 	margin: auto;
 	width: 900px;
 	}
+
 html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, .pun h4, .pun h5, .pun pre, .pun blockquote,
 .pun ul, .pun ol, .pun li, .pun dl, .pun dt, .pun dd, .pun th, .pun td, .pun fieldset, .pun legend .pun img,
 .pun abbr, .pun cite {
@@ -116,7 +117,7 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 .pun .actions span {
 	padding-right: 16px;
 	padding-left: 8px;
-	background: url(Air_rtl/img/bull.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/bull.png) center right no-repeat;
 	display: inline-block;
 	line-height: normal;
 }
@@ -198,26 +199,26 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 	height: 18px;
 	margin-bottom: -18px;
 	position: relative;
-	/* background: url(Air_rtl/img/main_top.png) top right no-repeat; */
+	/* background: url(AirFixed_rtl/img/main_top.png) top right no-repeat; */
 }
 
 .pun .top-box div {
 	height: 18px;
 	margin-right: 50%;
-	/* background: url(Air_rtl/img/main_top.png) top left no-repeat; */
+	/* background: url(AirFixed_rtl/img/main_top.png) top left no-repeat; */
 }
 
 .pun .end-box {
 	margin-top: -17px;
 	height: 18px;
 	position: relative;
-	/*background: url(Air_rtl/img/main_end.png) bottom right no-repeat;*/
+	/*background: url(AirFixed_rtl/img/main_end.png) bottom right no-repeat;*/
 }
 
 .pun .end-box div {
 	height: 18px;
 	margin-right: 50%;
-	/*background: url(Air_rtl/img/main_end.png) bottom left no-repeat;*/
+	/*background: url(AirFixed_rtl/img/main_end.png) bottom left no-repeat;*/
 }
 
 #punredirect h2, #punmaint h2 {
@@ -329,7 +330,7 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 }
 
 #brdwelcome li span {
-	background: url(Air_rtl/img/bull.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/bull.png) center right no-repeat;
 	padding-right: 18px;
 	margin-left: 3px;
 	display: inline-block;
@@ -380,7 +381,7 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 }
 
 .pun #brdfooter #modcontrols dd span {
-	background: url(Air_rtl/img/bull.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/bull.png) center right no-repeat;
 	display: inline-block;
 	line-height: normal;
 	padding-right: 18px;
@@ -410,7 +411,7 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 }
 
 .pun #brdfooter #searchlinks dd span {
-	background: url(Air_rtl/img/bull.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/bull.png) center right no-repeat;
 	display: inline-block;
 	line-height: normal;
 	padding-right: 18px;
@@ -422,7 +423,7 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 }
 
 .pun #brdfooter #feedlinks span {
-	background: url(Air_rtl/img/feed.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/feed.png) center right no-repeat;
 	display: inline-block;
 	padding-right: 18px;
 	white-space: nowrap;
@@ -857,7 +858,7 @@ MAIN POSTS
 	padding-right: 16px;
 	margin-right: 8px;
 	line-height: normal;
-	background: url(Air_rtl/img/bull.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/bull.png) center right no-repeat;
 }
 
 .pun .blockpost .usercontacts {
@@ -865,7 +866,7 @@ MAIN POSTS
 }
 
 .pun .blockpost .usercontacts .email {
-	background: url(Air_rtl/img/email.png) right 65% no-repeat;
+	background: url(AirFixed_rtl/img/email.png) right 65% no-repeat;
 	margin-left: 5px;
 	padding-right: 21px;
 	display: inline-block;
@@ -873,7 +874,7 @@ MAIN POSTS
 }
 
 .pun .blockpost .usercontacts .website {
-	background: url(Air_rtl/img/ext.png) right 65% no-repeat;
+	background: url(AirFixed_rtl/img/ext.png) right 65% no-repeat;
 	padding-right: 18px;
 	display: inline-block;
 	line-height: normal;
@@ -1098,7 +1099,7 @@ MAIN FORMS
 
 .pun .error-list li {
 	padding-right: 24px;
-	background: url(Air_rtl/img/exclaim.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/exclaim.png) center right no-repeat;
 }
 
 .pun .inform {
@@ -1148,7 +1149,7 @@ MAIN FORMS
 }
 
 .pun .required strong {
-	background: url(Air_rtl/img/asterisk.png) center left no-repeat;
+	background: url(AirFixed_rtl/img/asterisk.png) center left no-repeat;
 	font-weight: normal;
 	padding-left: 14px;
 	white-space: pre;
@@ -1221,7 +1222,7 @@ MAIN FORMS
 }
 
 .pun .blockform .bblinks li span {
-	background: url(Air_rtl/img/help.png) center right no-repeat;
+	background: url(AirFixed_rtl/img/help.png) center right no-repeat;
 	margin-left: 8px;
 	padding-right: 20px;
 	display: inline-block;
@@ -1272,7 +1273,7 @@ MAIN FORMS
 }
 
 .pun span.email {
-	background: url(Air_rtl/img/email.png) right 65% no-repeat;
+	background: url(AirFixed_rtl/img/email.png) right 65% no-repeat;
 	margin-left: 5px;
 	padding-right: 21px;
 	display: inline-block;
@@ -1280,7 +1281,7 @@ MAIN FORMS
 }
 
 .pun span.website {
-	background: url(Air_rtl/img/ext.png) right 65% no-repeat;
+	background: url(AirFixed_rtl/img/ext.png) right 65% no-repeat;
 	padding-right: 18px;
 	display: inline-block;
 	line-height: normal;
@@ -1458,7 +1459,7 @@ COLOUR SCHEME
 ----------------------------------------------------------------*/
 
 html, body, .pun {
-	background: #F6F6F8 url(Air_rtl/img/bg.jpg) repeat-x 0 0;
+	background: #F6F6F8 url(AirFixed_rtl/img/bg.jpg) repeat-x 0 0;
 	color: #333;
 }
 
